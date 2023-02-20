@@ -1,15 +1,16 @@
 const cards = document.querySelectorAll(".card");
+const modalOverlay = document.querySelector(".modal-overlay");
 
 cards.forEach((card, index) => {
   card.addEventListener("click", () => {
-    const state = Flip.getState(cards);
     const isCardActive = card.classList.contains("active");
     cards.forEach((otherCard, otherIdx) => {
       otherCard.classList.remove("active");
-      // otherCard.classList.remove("is-inactive");
+      modalOverlay.classList.remove("active");
     });
     if (!isCardActive) {
       card.classList.add("active");
+      modalOverlay.classList.add("active");
     }
   });
 });

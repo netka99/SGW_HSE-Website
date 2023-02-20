@@ -20,21 +20,21 @@
                 <a class="links-ref" href="#">Kontakt</a>
             </div>
         </nav>
-        <div class="hero-services">
+        <div class="hero-services" >
             <div class="hero-services-info">
                 <h2>USŁUGI</h2>
             </div>
         </div>
     </section>
     <section class="services">
-        <div class="services-title">
+        <div class="services-title" >
             <p>Zakres oferty BHP/HSE</p>
             <span class="services-line"></span>
         </div>
-
         <div class="cards">
-            <div class="div1"></div>
-            <div class="div2 card">
+            <div class="modal-overlay"></div>
+            <div class="div2 card"  >
+                <button class="close-button" id="close-button">&#10005;</button>
                 <img src="./images/kompleksowy nadzor.svg" class="service-icon" alt="ikona reki z dokumentem">
                 <p class="service-item-title">Kompleksowy nadzór i doradztwo</p>
                 <p class="service-item-info">Świadczymy wysoko wyspecjalizowane usługi w zakresie bezpieczeństwa i
@@ -44,6 +44,7 @@
                     obowiązków przepisów, zarówno w ramach umów stałych, jak i jednorazowych zleceń.</p>
             </div>
             <div class="div3 card"><img src="./images/BIOZ.svg" class="service-icon" alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">BIOZ</p>
                 <p class="service-item-info">Pomagamy sporządzić wraz z wszystkimi załącznikami Plan BIOZ.
                     Plan BIOZ jest sporządzany dla jednej konkretnej budowy, jeszcze przed rozpoczęciem prac i należy do
@@ -57,6 +58,7 @@
                     decydujący o większej skuteczności działań w zakresie bezpieczeństwa robót budowlanych.</p>
             </div>
             <div class="div4 card"><img src="./images/IBWR.svg" class="service-icon" alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">IBWR</p>
                 <p class="service-item-info">Świadczymy wysoko wyspecjalizowane usługi w zakresie bezpieczeństwa i
                     higieny
@@ -66,6 +68,7 @@
             </div>
             <div class="div5 card"><img src="./images/ocena ryzyka dla zadania.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Ocena Ryzyka dla Zadania</p>
                 <p class="service-item-info">Ocena ryzyka dla zadania jest jednym z załączników IBWR, ale również często
                     osobnym dokumentem.
@@ -73,11 +76,13 @@
             </div>
             <div class="div6 card"><img src="./images/ocena ryzyka zawodowego.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Ocena Ryzyka Zawodowego</p>
                 <p class="service-item-info">Wymaga opisu!!!</p>
             </div>
             <div class="div7 card"><img src="./images/Instrukcje BHP.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Instrukcje BHP</p>
                 <p class="service-item-info">Instrukcje bhp są w każdym zakładzie pracy jednym z najważniejszych
                     elementów systemu bezpieczeństwa i higieny pracy.
@@ -91,6 +96,7 @@
             </div>
             <div class="div8 card"><img src="./images/instrukcje stanowiskowe.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Instrukcje Stanowiskowe</p>
                 <p class="service-item-info">Instrukcja BHP stanowiskowa to zbiór zasad BHP, wskazówek, sposobu
                     działania, która ma dostarczyć pracownikowi wiedzę
@@ -98,6 +104,7 @@
             </div>
             <div class="div9 card"><img src="./images/dokumentacja BHP.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Dokumentacja BHP</p>
                 <p class="service-item-info">Wypadek przy pracy może mieć miejsce w każdej firmie i jest nagłym
                     zdarzeniem, wywołanym przyczyną zewnętrzną. Takie
@@ -107,6 +114,7 @@
             </div>
             <div class="div10 card"><img src="./images/procedury sterujace.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Materiały, kwadranse bezpieczeństwa</p>
                 <p class="service-item-info">W związku zapotrzebowaniem rynku i firm posiadających np. certyfikat normy
                     ISO 45001:2018 ale i firm zagranicznych
@@ -117,6 +125,7 @@
             </div>
             <div class="div11 card"><img src="./images/szkolenia.svg" class="service-icon"
                     alt="ikona reki z dokumentem">
+                <button class="close-button" id="close-button">&#10005;</button>
                 <p class="service-item-title">Szkolenia wstępne okresowe</p>
                 <p class="service-item-info">Jednym z głównych obowiązków pracodawcy wynikającym wprost z Kodeksu Pracy
                     jest obowiązek organizacji szkoleń z zakresu
@@ -128,9 +137,129 @@
                     zm.), oraz profilem działalności pracodawcy.</p>
             </div>
         </div>
+    </section>
+    <section class="mainServices">
+        <div class="mainService">
+            <div class="mainService-title"> 
+                <span class="line"></span>
+                <p>Obsługa Firm</p>
+                <span class="line"></span>
+            </div>
+            <div class="mainService-info">
+                <div class="mainService-info-img"><img src="./images/handshakes.jpg "
+                        alt="uściśnięcie rąk nad biurkiem"  ></div>
+                <div class="mainService-info-description">
+                    <p>Aby sprostać wymaganiom i obowiązkom pracodawcy w dziedzinie bezpieczeństwa i
+                        higieny pracy określonych w Kodeksie Pracy oraz innych przepisach towarzyszących,
+                        prowadzimy szeroką ofertę usług pozwalających na ich realizację.</p>
+                    <p>Z reguły małe firmy i przedsiębiorstwa zatrudniające do 100 osób nie posiadają w
+                        swoich szeregach pracowników ds. BHP z różnych względów, często finansowych.
+                        Przedsiębiorcy Ci wolą korzystać z usług BHP zewnętrznego specjalisty.</p>
+                    <p>Forma współpracy jest ustalana indywidualnie. Specjalizuję się przede
+                        wszystkim w usługach stałego nadzoru nad bezpieczeństwem i higieną pracy
+                        pełniąc zadania tej służby, oraz doraźną pomocą w ramach jednorazowej
+                        usługi BHP lub usług B2B w zakresie zadaniowym (opracowanie kompleksowej
+                        dokumentacji, instrukcji itp).</p>
+                </div>
+            </div>
+        </div>
+        <div class="mainService">
+            <div class="mainService-title">
+            <span class="line"></span>
+            <p>Szkolenia</p>
+            <span class="line"></span>
+            </div>
+            <div class="mainService-info">
+                <div class="mainService-info-description">
+                    <ul>
+                        <li>szkolenia wstępne pracowników, </li>
+                        <li>szkolenia okresowe pracowników,</li>
+                        <li>szkolenia dla pracodawców,</li>
+                        <li>szkolenia z zakresu udzielania pierwszej pomocy przed lekarskiej,</li>
+                        <li>szkolenia ppoż dla osób odpowiedzialnych za ewakuację i zwalczanie pożarów w firmie,</li>
+                        <li>szkolenia tematyczne</li>
+                        <li>kwadranse bezpieczeństwa</li>
+                    </ul>
+                </div>
+                <div class="mainService-info-img"><img src="./images/training.jpg" alt="szkolenie"></div>
+            </div>
+        </div>
+        <div class="mainService">
+            <div class="mainService-title">
+            <span class="line"></span>
+            <p>Dokumentacja BHP</p>
+            <span class="line"></span>
+            </div>
+            <div class="mainService-info">
+                <div class="mainService-info-img"><img src="./images/documents.jpg" alt="dokumenty na półkach" ></div>
+                <div class="mainService-info-description">
+                    <ul>
+                        <li>sporządzanie analizy ryzyka zawodowego na poszczególnych stanowiskach pracy, </li>
+                        <li>opracowywanie instrukcji stanowiskowych bhp,</li>
+                        <li>sporządzanie dokumentacji powypadkowej pracowników,</li>
+                        <li>sporządzanie regulaminu pracy oraz szczegółowych procedur tematycznych,</li>
+                        <li>okresowe analizy stanu bhp,</li>
+                        <li>monitorowanie terminów obowiązkowych szkoleń i badań pracowników,</li>
+                        <li>przygotowanie instrukcji bezpieczeństwa pożarowego dla obiektu,</li>
+                        <li>BIOZ</li>
+                        <li>IBWR</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mainService">
+            <div class="mainService-title">
+            <span class="line"></span>
+            <p>Kontrole</p>
+            <span class="line"></span>
+            </div>
+            <div class="mainService-info">
+                <div class="mainService-info-description">
+                    <ul>
+                        <li>przeprowadzanie bieżących kontroli warunków pracy oraz przestrzegania zasad i przepisów BHP,
+                        </li>
+                        <li>pisemne informowanie o stwierdzonych zagrożeniach w dziedzinie BHP oraz wnioskowanie o ich
+                            usunięcie,</li>
+                        <li>zgłaszanie pracodawcy wniosków dotyczących wymogów BHP i przeciwpożarowych (PPOŻ), do
+                            opracowanych planów modernizacji i
+                            rozwoju zakładu pracy odnoszących się do BHP i P.POŻ,</li>
+                        <li>uczestniczenie w opracowaniu wewnętrznych dyspozycji, regulaminów i instrukcji odnoszących
+                            się do BHP oraz ich
+                            opiniowanie,</li>
+                        <li>informowanie o istniejących zagrożeniach zdrowia i życia w pracy,</li>
+                        <li>współpraca z uprawnionymi jednostkami kontroli zewnętrznej badającymi warunki pracy w
+                            zakładzie pracy,</li>
+                        <li>pomoc w określeniu wymaganych pomiarów środowiska pracy,</li>
+                        <li>wykonywanie zadań służby BHP.</li>
+                    </ul>
+                </div>
+                <div class="mainService-info-img"><img src="./images/worker_with_helmet_small.jpg"
+                        alt="pracownik w kasku"></div>
+            </div>
+        </div>
+    </section>
+    <section class="collaborations">
+            <div class="collaborations-title">
+                <p>Proponujemy różne formy współpracy, a w tym:</p>
+                <span class="line-collab"></span>
+            </div>
+            <div class="collab">
+            <div class="collab-first">
+                <div class="collab-first-title">Doradztwo w zakresie BHP/HSE</div>
+                <p>Odpowiemy na wszelkie, nurtujące Państwa pytania i doradzą, jakie rozwiązania warto wdrożyć w swojej firmie.
+</p>
+            </div>
+            <div class="collab-second">
+                <div class="collab-second-title">Outsourcing BHP/HSE</div>
+                <p>Świadcząc usługi w zakresie outsourcingu BHP niejako przejmujemy zadania, 
+                    związane z bezpieczeństwem i higieną pracy oraz ochroną przeciwpożarową, 
+                    odciążając jednocześnie przedsiębiorcę.
+                </p>
+            </div>
+            </div>
+            <div class="collab-image"><img src="./images/signing_contract.jpg" alt=""></div>
 
     </section>
-
     <section class="footer">
         <div class="footer-title">
             <p>Kontakt</p>
