@@ -424,73 +424,118 @@ nav {
     background-color: var(--decoration-col);
 }
 
-.parent {
+.cards {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin: 1rem 15%;
 }
 
 .service-item-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--text-heading);
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .service-item-info {
+    padding-top: 2rem;
     font-size: 1rem;
     color: var(--sec-text-col);
     font-family: 'Roboto', sans-serif;
-    /* display: none; */
+    font-weight: 400;
+    display: none;
 }
 
-.div1 {
-    grid-area: 1 / 5 / 2 / 9;
+.service-item-info.active {
+    display: block;
+}
+
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.card {
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #9D9898;
+    padding: 10px 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card.active {
+    grid-area: 1 / 3 / 2 / 7;
+
+}
+
+.card.active p {
+    display: block;
+
+}
+
+
+.div1 {
+    grid-area: 1 / 3 / 2 / 7;
+    height: auto;
+
 }
 
 .div2 {
-    grid-area: 2 / 3 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 3;
 }
 
 .div3 {
-    grid-area: 2 / 5 / 3 / 7;
+    grid-area: 2 / 3 / 3 / 5;
 }
 
 .div4 {
-    grid-area: 2 / 7 / 3 / 9;
+    grid-area: 2 / 5 / 3 / 7;
 }
 
 .div5 {
-    grid-area: 2 / 9 / 3 / 11;
+    grid-area: 2 / 7 / 3 / 9;
 }
 
 .div6 {
-    grid-area: 3 / 3 / 4 / 5;
+    grid-area: 3 / 1 / 4 / 3;
 }
 
 .div7 {
-    grid-area: 3 / 5 / 4 / 7;
+    grid-area: 3 / 3 / 4 / 5;
 }
 
 .div8 {
-    grid-area: 3 / 7 / 4 / 9;
+    grid-area: 3 / 5 / 4 / 7;
 }
 
 .div9 {
-    grid-area: 3 / 9 / 4 / 11;
+    grid-area: 3 / 7 / 4 / 9;
 }
 
 .div10 {
-    grid-area: 4 / 5 / 5 / 7;
+    grid-area: 4 / 3 / 5 / 5;
 }
 
 .div11 {
-    grid-area: 4 / 7 / 5 / 9;
+    grid-area: 4 / 5 / 5 / 7;
 }
-
 
 @media screen and (max-width:760px) {
     .key-services {
