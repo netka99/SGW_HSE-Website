@@ -452,6 +452,7 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     display: none;
+    line-height: 1.4rem;
 }
 
 .service-item-info.active {
@@ -639,7 +640,7 @@ nav {
     align-items: center;
     justify-content: center;
     background: var(--decoration-col);
-    padding: 3rem 0rem;
+    padding: 4rem 0rem;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 
@@ -651,33 +652,149 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--main-back-col);
 }
 
 .collab {
     display: flex;
-    margin: 2rem 0rem;
+    margin: 3rem 0rem;
     flex-direction: row;
-    justify-content: center;
     align-items: flex-start;
+    justify-content: space-evenly;
+    line-height: 1.4rem;
+}
+
+.collab p {
+    font-size: 1.1rem;
+}
+
+.collab-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
 
 .collab-first {
-    width: 30%;
+    width: 28%;
 }
 
 .collab-second {
-    width: 30%;
+    width: 28%;
 }
 
 .line-collab {
     display: block;
     width: 23rem;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
     background-color: var(--main-back-col);
 }
 
+
+
+/* Styling for Page O FIRMIE*/
+
+.hero-aboutme {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero_aboutme.jpg) center bottom / cover no-repeat;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero_aboutme.jpg) center center / cover no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-aboutme-info h2 {
+    font-size: 3.5rem;
+    padding: 0.5rem 0rem;
+    color: var(--text-white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.aboutme-info {
+    display: flex;
+    margin: 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-description {
+    width: 35%;
+}
+
+.aboume-img {
+    width: 35%;
+}
+
+.aboume-img img {
+    width: 100%;
+}
+
+.aboutme-title {
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+    color: var(--text-heading);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.aboutme-details {
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+    color: var(--sec-text-col);
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+}
+
+.aboutme-details p {
+    padding: 1rem 0rem;
+}
+
+.aboutme-other {
+    background: linear-gradient(106deg, rgba(234, 234, 234, 0.8), rgba(240, 240, 240, 0.346));
+    padding: 4rem 0rem;
+}
+
+.aboutme-other-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+
+}
+
+.aboutme-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme-icon img {
+    width: 80%;
+}
+
+.aboutme-icon p {
+    font-size: 1.2rem;
+    color: var(--text-heading);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aboutme-other-img {
+    display: flex;
+    padding: 6rem 0rem;
+    justify-content: center;
+}
+
+.aboutme-other-img img {
+    border-radius: 3%;
+}
 
 @media screen and (max-width:760px) {
     .key-services {
