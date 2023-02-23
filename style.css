@@ -9,6 +9,7 @@
 html, body {
     height: 100%;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -54,7 +55,6 @@ nav {
     font-size: 1rem;
     transition: 0.7s ease;
     position: relative;
-    font-family: 'Roboto', sans-serif;
 }
 
 .links-ref:after {
@@ -97,14 +97,12 @@ nav {
     font-size: 3.5rem;
     padding: 0.5rem 0rem;
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 .hero-info h3 {
     font-size: 2.5rem;
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding: 2rem 0rem;
 }
@@ -112,7 +110,6 @@ nav {
 .cta-info {
     background: var(--decoration-col);
     padding: 0.6rem 1.2rem;
-    font-family: 'Roboto', sans-serif;
     color: var(--text-white);
     font-size: 1rem;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
@@ -131,7 +128,6 @@ nav {
     background: var(--main-back-col);
     padding: 0.6rem 2rem;
     margin-left: 2rem;
-    font-family: 'Roboto', sans-serif;
     color: var(--text-white);
     font-size: 1rem;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
@@ -175,7 +171,6 @@ nav {
 
 .service-title {
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     padding: 1rem 0rem;
@@ -183,7 +178,6 @@ nav {
 
 .service-description {
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     padding-bottom: 1rem;
 }
@@ -208,7 +202,6 @@ nav {
 .info-details {
     width: 40%;
     margin-left: 2rem;
-    font-family: 'Roboto', sans-serif;
 }
 
 .info-details h3 {
@@ -264,7 +257,6 @@ nav {
 
 .project-title p {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     padding: 3rem 0rem;
     font-weight: 700;
@@ -280,7 +272,6 @@ nav {
 }
 
 .first-title, .second-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     padding: 1rem 0rem;
     font-weight: 700;
@@ -288,7 +279,6 @@ nav {
 }
 
 .first-description, .second-description {
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: var(--sec-text-col);
     font-weight: 400;
@@ -330,7 +320,6 @@ nav {
 
 .footer p {
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
 }
 
 .footer-title {
@@ -391,7 +380,6 @@ nav {
     font-size: 3.5rem;
     padding: 0.5rem 0rem;
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -411,7 +399,6 @@ nav {
 .services-title p {
     font-size: 1.5rem;
     color: var(--text-heading);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 
 }
@@ -436,7 +423,6 @@ nav {
 .service-item-title {
     font-size: 1.2rem;
     color: var(--text-heading);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     display: flex;
     width: 100%;
@@ -449,7 +435,6 @@ nav {
     padding-top: 2rem;
     font-size: 1rem;
     color: var(--sec-text-col);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     display: none;
     line-height: 1.4rem;
@@ -593,7 +578,6 @@ nav {
 
 .mainService-title>p {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     padding: 3rem 0rem;
     font-weight: 700;
@@ -618,7 +602,6 @@ nav {
 
 .mainService-info-description {
     width: 35%;
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     margin: 0 1rem 0 1rem;
     line-height: 1.2rem;
@@ -642,7 +625,6 @@ nav {
     background: var(--decoration-col);
     padding: 4rem 0rem;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -712,7 +694,6 @@ nav {
     font-size: 3.5rem;
     padding: 0.5rem 0rem;
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -739,7 +720,6 @@ nav {
     font-size: 2rem;
     padding: 0.5rem 0rem;
     color: var(--text-heading);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
@@ -747,7 +727,6 @@ nav {
     font-size: 1rem;
     padding: 0.5rem 0rem;
     color: var(--sec-text-col);
-    font-family: 'Roboto', sans-serif;
     width: 80%;
 }
 
@@ -781,7 +760,6 @@ nav {
 .aboutme-icon p {
     font-size: 1.2rem;
     color: var(--text-heading);
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: center;
 }
@@ -814,28 +792,113 @@ nav {
     font-size: 3.5rem;
     padding: 0.5rem 0rem;
     color: var(--text-white);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 .contact {
     background: #F2F2F2;
-    padding: 4rem 0rem;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 4rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-title {
     font-size: 1.5rem;
     color: var(--text-heading);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.services-line {
+.contact-line {
     display: block;
     width: 40rem;
     height: 4px;
     border-radius: 5px;
     background-color: var(--decoration-col);
+    margin-top: 0.5rem;
+
+}
+
+.contact-container {
+    display: flex;
+    margin: 4rem auto;
+    width: 70%;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 6rem;
+}
+
+.contact-phone, .contact-mail, .contact-address {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contact-phone img, .contact-mail img, .contact-address img {
+    padding: 1.5rem;
+}
+
+.contact-map {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 3rem 0rem;
+    color: var(--sec-text-col);
+}
+
+.contact-map img {
+    width: 80%;
+}
+
+form input, form textarea {
+    width: 100%;
+}
+
+.contact-inputs, .contact-inputs input, .contact-inputs textarea {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+}
+
+.contact-inputs input, .contact-inputs textarea {
+    padding: 0.9rem 1rem;
+    border: none;
+    background: #D8D8D8;
+}
+
+.contact-inputs div {
+    padding: 1rem 0rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-submit {
+    background: var(--decoration-col);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--text-heading);
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 
