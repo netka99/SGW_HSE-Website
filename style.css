@@ -76,6 +76,22 @@ nav {
     transform-origin: bottom left;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
 .hero {
     width: 100%;
     height: 60vh;
@@ -925,11 +941,168 @@ textarea:focus {
 }
 
 @media screen and (max-width:760px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 1em;
+        position: relative;
+        right: 15px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .links {
+        position: fixed;
+        left: -150%;
+        gap: 3rem;
+        flex-direction: column;
+        background: var(--main-back-col);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100vh;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .links.active {
+        left: 0;
+    }
+
+    .links-ref {
+        margin: 16px 0;
+        top: 30px;
+        font-size: 1.5rem;
+
+    }
+
     .key-services {
         flex-direction: column
     }
 
     .main-info {
-        flex-direction: column
+        flex-direction: column;
+        margin: 3rem 0rem;
     }
+
+    .logo {
+        margin: 1rem 1rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .hero-info h2 {
+        font-size: 2rem;
+    }
+
+    .hero-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero-info {
+        margin-left: 2rem;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .key-services {
+        width: 100%;
+        align-items: center;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .info-image {
+        width: 100%;
+        display: flex;
+        margin-right: 0rem;
+        justify-content: center;
+    }
+
+    .info-details {
+        width: 90%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+
+    .project-first, .project-second {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .project-second-image {
+        order: 1
+    }
+
+    .project-secon-info {
+        order: 2
+    }
+
+    .project-second-image, .project-secon-info, .project-first-image, .project-first-info {
+        width: 90%;
+    }
+
+    .project-first-image, .project-secon-info {
+        margin-right: 0rem;
+    }
+
+    .project-first-info, .project-second-image {
+        margin-left: 0rem;
+    }
+
+    .project-title p {
+        padding: 2rem 0rem;
+    }
+
+    .first-title, .second-title {
+        padding: 1rem 1rem;
+    }
+
+    .first-description, .second-description {
+        padding: 0rem 0rem 1rem 1rem;
+    }
+
+    .first-img-row-first img {
+        width: 20%;
+    }
+
+    .second-img-row-third img {
+        width: 17%;
+    }
+
+    .first-img-row-second img, .second-img-row-second img {
+        width: 25%;
+        height: 80%;
+    }
+
+    .second-img-row-first img {
+        width: 25%;
+    }
+
+
+
 }

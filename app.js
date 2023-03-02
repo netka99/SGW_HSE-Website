@@ -14,3 +14,20 @@ cards.forEach((card, index) => {
     }
   });
 });
+
+//=============================================================
+//responsive nav menu
+const hamburger = document.querySelector(".hamburger");
+const siteNav = document.querySelector(".links");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  siteNav.classList.toggle("active");
+});
+
+document.querySelectorAll("links-ref").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    siteNav.classList.remove("active");
+  })
+);
