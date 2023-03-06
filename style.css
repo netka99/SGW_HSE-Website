@@ -1384,3 +1384,33 @@ textarea:focus {
         height: 350px;
     }
 }
+
+@media only screen and (min-width: 760px) and (max-width: 1150px) {
+    .contact-container {
+        margin: 4rem auto;
+        width: 90%;
+    }
+
+    .contact-details {
+        width: 40%;
+    }
+
+    .contact-phone, .contact-mail, .contact-address {
+        flex-direction: column;
+    }
+
+    .contact-map {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        margin: 1rem 10%;
+    }
+
+    .services-title {
+        margin-left: 10%;
+    }
+}
