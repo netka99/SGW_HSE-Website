@@ -627,9 +627,9 @@ a:link, a:visited, a:hover, a:active {
 
 .mainService-info-description {
     width: 35%;
-    font-size: 1rem;
-    margin: 0 1rem 0 1rem;
-    line-height: 1.2rem;
+    font-size: 1.1rem;
+    margin: 0 2rem 0 2rem;
+    line-height: 1.3rem;
     color: var(--sec-text-col);
 }
 
@@ -639,6 +639,8 @@ a:link, a:visited, a:hover, a:active {
 
 .mainService-info-description li {
     padding: 0.3rem 0rem;
+    line-height: 1.3rem;
+
 }
 
 /*last part of Service page*/
@@ -731,7 +733,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .aboutme-description {
-    width: 35%;
+    width: 40%;
 }
 
 .aboume-img {
@@ -750,14 +752,21 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .aboutme-details {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0.5rem 0rem;
     color: var(--sec-text-col);
     width: 80%;
+    line-height: 115%;
 }
 
 .aboutme-details p {
     padding: 1rem 0rem;
+}
+
+.aboutme-details-title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
 }
 
 .aboutme-other {
@@ -944,7 +953,7 @@ textarea:focus {
     box-shadow: 1px 1px 4px 1px rgba(54, 54, 54, 0.3);
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:770px) {
     nav {
         justify-content: space-between;
     }
@@ -1220,6 +1229,8 @@ textarea:focus {
         width: 90%;
         margin: 1rem 1rem 0 1rem;
         padding: 0rem 1rem;
+        font-size: 1rem;
+        line-height: 1rem;
     }
 
     #serviceInfo2, #serviceInfo4 {
@@ -1301,6 +1312,24 @@ textarea:focus {
 
     .aboutme-other-img img {
         width: 80%;
+    }
+
+
+    .aboutme-details {
+        font-size: 1rem;
+        width: 100%;
+        line-height: 115%;
+    }
+
+    .aboutme-details ul {
+        margin: 0 1rem 0 1.5rem;
+    }
+
+
+    .aboutme-details-title {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        margin-top: 2rem;
     }
 
     /* Contact page */
