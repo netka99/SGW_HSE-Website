@@ -1,3 +1,8 @@
+
+
+
+
+
 const cards = document.querySelectorAll(".card");
 const modalOverlay = document.querySelector(".modal-overlay");
 
